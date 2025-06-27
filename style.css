@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-body, a{
+body {
   background-color: #e9b6ad;
   font-family:  capriola, sans-serif;
   text-align: center;
@@ -12,6 +12,10 @@ body, a{
   align-items: center;
   text-decoration: none;
   scroll-behavior: smooth;
+}
+
+hr {
+  border: 1px dotted #3d0d1d;
 }
 
 #logo-main {
@@ -52,8 +56,17 @@ body, a{
   display: none;
   overflow: hidden;
   text-align: left;
+  opacity: 0;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
 }
 
+#copied-message {
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 1;
+  transition-timing-function: ease-in;
+}
 
 /* Colors *
 --bodyText: #3d0d1d;
