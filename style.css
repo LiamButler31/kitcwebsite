@@ -4,13 +4,13 @@
   font-style: normal;
 }
 
+/*HTML tags*/
+
 body {
   background-color: #e9b6ad;
   font-family:  capriola, sans-serif;
   text-align: center;
   color: #3d0d1d;
-  align-items: center;
-  text-decoration: none;
   scroll-behavior: smooth;
 }
 
@@ -18,37 +18,7 @@ hr {
   border: 1px dotted #3d0d1d;
 }
 
-#logo-main {
-  width: 10em;
-  height: auto;
-}
-
-.content {
-  max-width: 70%;
-  margin: auto;
-
-}
-
-#links-div {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.link-button {
-  background-color: #F2E2D4;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 14px;
-  margin-bottom: 14px;
-  padding: 18px;
-  border-radius: 24px;
-  width: 80%;
-  max-width: 500px;
-}
-
-.link-button:hover {
-  cursor: pointer;
-}
+/*Classes*/
 
 .collapsible {
   width: 70%;
@@ -61,6 +31,33 @@ hr {
   -webkit-transition: opacity 1s;
 }
 
+.content {
+  max-width: 70%;
+  margin: auto;
+}
+
+.link-button {
+  background-color: #F2E2D4;
+  border-color: #F2E2D4;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding: 18px;
+  border-radius: 24px;
+  width: 80%;
+  max-width: 500px;
+  transition: background-color 0.1s;
+}
+
+.link-button:hover {
+  cursor: pointer;
+  background-color: #e9b6ad;
+}
+
+/*ID tags*/
+
 #copied-message {
   font-size: 12px;
   visibility: hidden;
@@ -68,72 +65,12 @@ hr {
   transition-timing-function: ease-in;
 }
 
-/* Colors *
---bodyText: #3d0d1d;
---linkBackground: #F2E2D4;
---linkText: #3d0d1d;
---linkHoverBackground: #F2E2D4;
---linkHoverText: #3d0d1d;
---profileBackground: #e9b6ad;
---heroBackground: #541a2e;
---defaultAvatarBackground: #000000;
---defaultAvatarText: #FFFFFF;
---profileTitleText: #3d0d1d;
---profileDescriptionText: #3d0d1d;
---socialLinkFill: #3d0d1d;
---bannerBackground: #F2E2D4;
---bannerText: #3d0d1d;
-
-/* Border Radius *
---linkRadius: 24px;
-
-/* Font Family *
---profileFontFamilyPrimary: capriola;
---profileFontFamilySecondary: inter;
-
-/* Font Weight *
---profileFontWeightNormal: 400;
---profileFontWeightBold: 700;
---profileDescriptionFontWeight: 500;
---linkTextFontWeight: 500;
---headerFontWeight: 700;
---embedLinkTextFontWeight: 500;
---signupSubmitTextFontWeight: 700;
---bannerFontWeight: 700;
-
-/* Font Size *
---profileDescriptionFontSize: 14px;
---linkTextFontSize: 14px;
---headerFontSize: 20px;
---embedLinkTextFontSize: 14px;
---signupSubmitTextFontSize: 14px;
---linkHeaderFontSize: 14px;
---bannerFontSize: 14px;
-
-/* Line Height *
---profileDescriptionLineHeight: 1.5;
---headerLineHeight: 1.5;
-
-/* Link Spacing *
---link-gap: 14px; 
---link-inner-padding: calc(var(--link-gap) / 2); 
---collection-gap: var(--link-gap); 
-
---link-preview-thumbnail-width: 160px; 
-
-background-color: var(--profileBackground, #fff);
+#links-div {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-@media screen and (min-width: 768px) {
-html {
-  /* Font Size *
-  --profileDescriptionFontSize: 16px;
-  --linkTextFontSize: 16px;
-  --headerFontSize: 20px;
-  --embedLinkTextFontSize: 16px;
-  --signupSubmitTextFontSize: 16px;
-  --linkHeaderFontSize: 16px;
-  --bannerFontSize: 16px;
-  --link-preview-thumbnail-width: 224px; 
+#logo-main {
+  width: 10em;
+  height: auto;
 }
-}*/
