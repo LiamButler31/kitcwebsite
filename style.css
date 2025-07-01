@@ -36,6 +36,16 @@ hr {
   margin: auto;
 }
 
+.icon {
+  vertical-align: middle;
+  height: 30px;
+  width: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
 .link-button {
   background-color: #F2E2D4;
   border-color: #F2E2D4;
@@ -56,11 +66,6 @@ hr {
   background-color: #f0ceb1;
 }
 
-.socials {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 /*ID tags*/
 
 #copied-message {
@@ -68,11 +73,6 @@ hr {
   visibility: hidden;
   opacity: 1;
   transition-timing-function: ease-in;
-}
-
-#insta-icon {
-  height: 30px;
-  width: auto;
 }
 
 #links-div {
@@ -83,6 +83,7 @@ hr {
 #logo-main {
   width: 10em;
   height: auto;
+  padding-top: 10px;
 }
 
 #socials-div a {
