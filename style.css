@@ -15,12 +15,6 @@ body {
   font-size: 100%;
 }
 
-@media screen and (max-width=1200px) {
-  body {
-    font-size: 75%;
-  }
-}
-
 hr {
   border: 0.0625em dotted #3d0d1d;
 }
@@ -108,4 +102,10 @@ hr {
 #socials-div a {
   color: inherit;
   text-decoration: none;
+}
+
+@media screen and (max-width=800px) {
+  body {
+    font-size: 75%;
+  }
 }
